@@ -36,6 +36,7 @@ opacity: 0.5;
 const Wrapper = styled.div`
 height: 100%;
 display: flex;
+transition: all 1.5s ease;
 transform: translateX(${props=>props.slideIndex * -100}vw   );
 `
 const Slide = styled.div`
@@ -97,7 +98,7 @@ else{
                     <Slide key={index} bg={item.bg}>
 
                         <ImgContainer>
-                            <Image src={item.Image} />
+                            <Image src={item.img} />
                         </ImgContainer>
                         <InfoContainer>
                             <Title>{item.title}</Title>
