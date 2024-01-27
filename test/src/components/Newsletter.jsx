@@ -24,25 +24,27 @@ const Desc = styled.div`
 `;
 
 const InputContainer = styled.div`
-  width: 50%;
+  width: 45%;
   height: 40px;
   background-color: white;
   display: flex;
   justify-content: space-between;
   border: 1px solid lightgray;
+  
 `;
 
 const Input = styled.input`
   border: none;
-  flex: 8;
+  flex: 8;                          
   padding-left: 20px;
 `;
 
 const Button = styled.button`
   flex: 1;
   border: none;
-  background-color: teal;
+  background-color: green;
   color: white;
+
 `;
 
 const Newsletter = () => {
